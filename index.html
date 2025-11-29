@@ -1,2 +1,30 @@
 <!-- index.html -->
-Hello! RareTECH!
+Hello! RareTECH!<br>
+<form action="submit" method="POST">
+<label for="username">Username:</label><br>
+<input 
+  type="text"
+  name="username"
+  minlength="4"
+  maxlength="10"
+  pattern="^[0-9A-Za-z]+$"
+  required>
+
+  <input type="submit" value="送信">
+</form>
+<h1>ユーザー登録</h1>
+
+<form action="/submit" method="POST">
+  <label for="username">ユーザー名:</label><br>
+  <input 
+    type="text" 
+    id="username" 
+    name="username" 
+    placeholder="ユーザー名を入力してください" 
+    minlength="4" 
+    maxlength="10" 
+    required
+  >
+
+  <input type="submit" value="送信">
+</form>
